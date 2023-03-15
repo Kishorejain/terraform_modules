@@ -1,5 +1,5 @@
 
-resource "aws_s3_bucket" "devs3" {
+resource "aws_s3_bucket" "devs37" {
 
   bucket                = var.bucket
   #bucket_prefix         = var.bucket_prefix
@@ -7,7 +7,7 @@ resource "aws_s3_bucket" "devs3" {
   object_lock_enabled   = var.object_lock_enabled
 
   tags = {
-    Name        = "devonS3"
+    Name        = "devonS37"
   }
 }
 
